@@ -200,7 +200,8 @@ else
                         color=3
                         ;;
                     "5)")
-                        export NEWT_COLORS='
+                        export NEWT_COLO
+                        ='
                         window=,red
                         border=white,red
                         textbox=white,red
@@ -414,7 +415,7 @@ else
                 exProxyServer=$8
                 if [ -z "$9" ]
                 then
-                    URL="https://rs.9hits.com/9hviewer/9hits-linux-x64.tar.bz2"
+                    URL="https://www.dropbox.com/s/usku8rcyysk9664/9hits-linux-x64-2.5.2.tar.bz2?dl=1"
                 else
                     URL=$9
                 fi
