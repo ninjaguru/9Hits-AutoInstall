@@ -24,7 +24,7 @@
 
 Example command:
 
->yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "0" "d2lpb0dc88554721ca9c3a6a1ef710b3"
+>yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "0" "bc69896132662102ea0e37a28e72fe1b"
 
 📌 1 -> **Advanced version, code will ask you some questions to make it more custom**
 
@@ -36,23 +36,23 @@ Example command:
 
 Example command(9Hits Proxy Server) NO AI:
 
->yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "d2lpb0dc88554721ca9c3a6a1ef710b3" "15" "10" "1" "0" "vps1"
+>yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "bc69896132662102ea0e37a28e72fe1b" "15" "10" "1" "0" "vps1"
 
 Example command(9Hits Proxy Server) WITH AI:
 
->yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "d2lpb0dc88554721ca9c3a6a1ef710b3" "15" "10" "1" "3" "vps1"
+>yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "bc69896132662102ea0e37a28e72fe1b" "15" "10" "1" "3" "vps1"
 
 Example command(Own Proxy Server) NO AI:
 
->yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "d2lpb0dc88554721ca9c3a6a1ef710b3" "15" "10" "1" "0" "vps1" "http://proxyserver.com/index.php"
+>yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "bc69896132662102ea0e37a28e72fe1b" "15" "10" "1" "0" "vps1" "http://proxyserver.com/index.php"
 
 Example command(Own Proxy Server) WITH AI:
 
->yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "d2lpb0dc88554721ca9c3a6a1ef710b3" "15" "10" "1" "2" "vps1" "http://proxyserver.com/index.php"
+>yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "bc69896132662102ea0e37a28e72fe1b" "15" "10" "1" "2" "vps1" "http://proxyserver.com/index.php"
 
 Example command(Custom URL):
 
->yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "d2lpb0dc88554721ca9c3a6a1ef710b3" "15" "10" "1" "2" "vps1" "" "https://rs.9hits.com/9hviewer/9hits-linux-x64-2.5.1.tar.bz2"
+>yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "bc69896132662102ea0e37a28e72fe1b" "15" "10" "1" "2" "vps1" "" "https://rs.9hits.com/9hviewer/9hits-linux-x64-2.5.1.tar.bz2"
 
 📌 DOCKER-COMPOSE ->
 
@@ -64,7 +64,7 @@ Example command(Custom URL):
         tty: true
         network_mode: host
         environment:
-          - token=d2lpb0dc88554721ca9c3a6a1ef710b3
+          - token=bc69896132662102ea0e37a28e72fe1b
           - sessions=10
           - maxcpu=1
           - restart=1
@@ -77,7 +77,7 @@ Example command(Custom URL):
 
 📌 DOCKER ->
 
->docker run -d --name=9hits -e "token=d2lpb0dc88554721ca9c3a6a1ef710b3" -e "sessions=10" -e "maxcpu=1" -e "restart=1" -e "name=vps2" -e "url=https://rs.9hits.com/9hviewer/9hits-linux-x64-2.5.1.tar.bz2" -e "allowAdult=allow" -e "allowPopups=allow" -e "allowMining=deny" --network="host" mauros5/9hits_autoinstall
+>docker run -d --name=9hits -e "token=bc69896132662102ea0e37a28e72fe1b" -e "sessions=10" -e "maxcpu=1" -e "restart=1" -e "name=vps2" -e "url=https://rs.9hits.com/9hviewer/9hits-linux-x64-2.5.1.tar.bz2" -e "allowAdult=allow" -e "allowPopups=allow" -e "allowMining=deny" --network="host" mauros5/9hits_autoinstall
 
 👉 Restart time have 6 levels:
 
