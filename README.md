@@ -24,7 +24,7 @@
 
 Example command:
 
->yum -y update || apt update && apt install cron && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "0" "d29cd70f44f4223a5dd799e813b6ad6b" && cd 9Hits/9HitsViewer_x64 && ./9hits
+>yum -y update || apt update && apt install cron && /etc/init.d/cron start && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "0" "d29cd70f44f4223a5dd799e813b6ad6b" && cd 9Hits/9HitsViewer_x64 && ./9hits
 
 📌 1 -> **Advanced version, code will ask you some questions to make it more custom**
 
