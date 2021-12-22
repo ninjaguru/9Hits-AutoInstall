@@ -481,6 +481,7 @@ EOFSS
     cronfile="/root/9Hits/crontab"
 cat > $cronfile <<EOFSS
 * * * * * /root/9Hits/crashdetect.sh
+* * * * * /root/9Hits/firefoxdetect.sh
 $cronvar
 58 23 * * * /root/9Hits/reboot.sh
 $lookup
